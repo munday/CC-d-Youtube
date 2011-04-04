@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    
+   	 <RatingBar
+   	 	android:layout_centerInParent="true"
+    	android:id="@+id/rating_bar"
+    	android:layout_width = "wrap_content"
+    	android:layout_height = "100dip"
+    	android:max="5"
+    	android:numStars="4"
+    	android:isIndicator="false"
+    	style="?android:attr/ratingBarStyleIndicator"
+    />
+    
+    
+</RelativeLayout>

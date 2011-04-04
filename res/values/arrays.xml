@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string-array name="video_actions">
+		<item>Watch Video</item>
+		<item>Rate Caption Quality</item>
+		<item>Share Video</item>
+	</string-array>
+	
+	
+</resources>

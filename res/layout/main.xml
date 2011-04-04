@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="56dp"
+		android:padding="0dip"
+		android:gravity="center_vertical"
+		android:background="@android:color/darker_gray">
+		
+		
+			<EditText
+				android:id="@+id/query_text"
+				android:hint="@string/search_vids"
+				android:textSize="16dp"
+				android:textStyle="bold"
+				android:shadowColor="#55000000"
+				android:singleLine="true"
+				android:shadowDx="-1"
+				android:shadowDy="-1"
+				android:shadowRadius="1"
+				android:gravity="center_vertical"
+				android:layout_width="fill_parent"
+				android:layout_toLeftOf="@+id/search_btn"
+				android:layout_margin="2dip"
+				android:paddingLeft="10dip"
+				android:layout_height="50dip"
+				android:selectAllOnFocus="true"
+				android:contentDescription="Enter a search keyword"
+				
+				/>
+		
+			<Button
+				android:id="@+id/search_btn"
+				android:src="@drawable/add"
+				android:focusable="true"
+				android:clickable="true"
+				android:layout_width="wrap_content"
+				android:layout_height="50dip"
+				android:layout_gravity="center" 
+				android:textColor="#000000"
+				android:shadowColor="#55000000"
+				android:shadowDx="-1"
+				android:shadowDy="-1"
+				android:shadowRadius="2"
+				android:textStyle="bold"
+				android:textSize="16dp"
+				android:layout_alignParentRight="true"
+				android:gravity="center"
+				android:layout_margin="2dip"
+				android:text="@string/search"
+				android:contentDescription="@string/search"
+				
+				/>
+			
+
+	</RelativeLayout>
+	
+	<ListView 
+		android:padding="0dip"
+		android:layout_margin="0dip"
+		android:id="@android:id/list"
+		android:drawingCacheQuality="high"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:dividerHeight="0dip"
+		android:scrollingCache="true"
+		android:longClickable="true"
+		android:layout_weight=".5"/>
+	
+	<TextView 
+		android:id="@android:id/empty"
+		android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:textSize="18dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/no_vids"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:contentDescription="Enter your search query."
+        />
+		
+</LinearLayout>

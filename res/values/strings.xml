@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CC\'d YouTube</string>
+	<string name="search_vids">Search For Something</string>
+	<string name="no_vids">Search for videos using the box above.</string>
+	<string name="vid_by">Author:</string>
+	<string name="rate_captions_title">Rate Captions</string>
+	<string name="share">Share Link</string>
+	<string name="search">Search</string>
+	<string name="searching">Searching</string>
+</resources>
